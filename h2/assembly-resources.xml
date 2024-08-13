@@ -1,0 +1,28 @@
+<assembly
+    xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.0 http://maven.apache.org/xsd/assembly-1.1.0.xsd">
+    <id>resources</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <directory>${basedir}/src/main</directory>
+            <includes>
+                <include>**/*.prop</include>
+                <include>**/*.png</include>
+                <include>**/*.jsp</include>
+                <include>**/*.ico</include>
+                <include>**/*.gif</include>
+                <include>**/*.css</include>
+                <include>**/*.js</include>
+                <include>org/h2/res/help.csv</include>
+                <include>org/h2/res/javadoc.properties</include>
+                <include>org/h2/server/pg/pg_catalog.sql</include>
+            </includes>
+            <outputDirectory></outputDirectory>
+        </fileSet>
+    </fileSets>
+</assembly>
