@@ -21,3 +21,13 @@ More information: http://h2database.com
 | Multi Version Concurrency      | Yes     | No      | Yes     | Yes   | Yes     |
 | Footprint (embedded database)  | ~2 MB   | ~3 MB   | ~1.5 MB | —     | —       |
 | Footprint (JDBC client driver) | ~500 KB | ~600 KB | ~1.5 MB | ~1 MB | ~700 KB |
+
+
+
+Big thanks to generous developers from SberTech!
+
+# ignite-h2 without CVEs
+
+SRC: https://gitverse.ru/sbertech/ignite-h2
+
+Package repo: https://gitverse.ru/sbertech/-/packages/maven/com.sbt.ignite-ignite-h2/1.0.0?tab=packagesOrg
